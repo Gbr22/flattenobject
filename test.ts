@@ -38,3 +38,5 @@ const c = flattenObjectRecursive({
         }
     }
 })
+
+console.log(c);

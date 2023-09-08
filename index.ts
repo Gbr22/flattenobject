@@ -1,8 +1,8 @@
-import { flattenObject, flattenObjectRecursive, FlattenObject, FlattenObjectRecursive } from "./flatten";
+import { flattenObject, flattenObjectDeep, FlattenObject, FlattenObjectDeep } from "./flatten";
 
 export {
     flattenObject,
     FlattenObject,
-    flattenObjectRecursive,
-    FlattenObjectRecursive
+    flattenObjectDeep as flattenObjectRecursive,
+    FlattenObjectDeep as FlattenObjectRecursive
 }
